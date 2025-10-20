@@ -5,7 +5,7 @@ import Footer from "../components/Footer/Footer"
 const Root = () => {
     const items=[
         {
-            url:"/",
+            url:".",
             content:"Home"
         },
         {
