@@ -13,8 +13,6 @@
     color: var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
 }
-.btn,.active{
-}
 @media screen and (max-width:992px) {
     .btn{
         font-size: 16px;

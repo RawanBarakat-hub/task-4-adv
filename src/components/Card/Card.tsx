@@ -12,7 +12,7 @@ interface CardProps{
     className: string;
 }
 const Card = ({image,title="$300000",description="Luxury Apartment in California",
-    additional_image={source:"/assets/icons/locationcard.svg",alternative:"Location photo"},
+    additional_image={source:"/task-4-adv/assets/icons/locationcard.svg",alternative:"Location photo"},
     additional_description="1901 Thornridge Cir. Shiloh, Hawaii 81063",show_additional,show_last,className}:CardProps) => {
     return (
         <div className={className}>

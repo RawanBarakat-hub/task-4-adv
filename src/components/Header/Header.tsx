@@ -5,7 +5,7 @@ const Header = () => {
     const locations=[
         {
             image:{
-                source:"/assets/icons/location.svg",
+                source:"/task-4-adv/assets/icons/location.svg",
                 alternative:"Location icon"
             },
             title:"Location",
@@ -13,7 +13,7 @@ const Header = () => {
         },
         {
             image:{
-                source:"/assets/icons/dollar-circle.svg",
+                source:"/task-4-adv/assets/icons/dollar-circle.svg",
                 alternative:"Dollar icon"
             },
             title:"Price",
@@ -21,7 +21,7 @@ const Header = () => {
         },
         {
             image:{
-                source:"/assets/icons/house.svg",
+                source:"/task-4-adv/assets/icons/house.svg",
                 alternative:"House icon"
             },
             title:"Type of Property",

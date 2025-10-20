@@ -5,27 +5,27 @@ import Title from '../Title/Title'
 const SectionPricing = () => {
     const images=[
         {
-            source:"/assets/images/home1.jpg",
+            source:"/task-4-adv/assets/images/home1.jpg",
             alternative:"Home photo"
         },
         {
-            source:"/assets/images/home2.jpg",
+            source:"/task-4-adv/assets/images/home2.jpg",
             alternative:"Home photo"
         },
         {
-            source:"/assets/images/home3.jpg",
+            source:"/task-4-adv/assets/images/home3.jpg",
             alternative:"Home photo"
         },
         {
-            source:"/assets/images/home4.jpg",
+            source:"/task-4-adv/assets/images/home4.jpg",
             alternative:"Home photo"
         },
         {
-            source:"/assets/images/home5.jpg",
+            source:"/task-4-adv/assets/images/home5.jpg",
             alternative:"Home photo"
         },
         {
-            source:"/assets/images/home6.jpg",
+            source:"/task-4-adv/assets/images/home6.jpg",
             alternative:"Home photo"
         }
     ]

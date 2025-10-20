@@ -6,7 +6,7 @@ import Root from './pages/Root'
 import Home from './pages/Home'
 const routes = createBrowserRouter([
   {
-    path: "/",
+    path: "/task-4-adv",
     element: <Root />,
     children: [
       {

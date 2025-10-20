@@ -4,7 +4,7 @@ const SectionService = () => {
     return (
         <section className="section_margin">
                 <div className={styles.image_wrapper}>
-                    <img src="/assets/images/kitchen.jpg" alt="kitchen photo" className={styles.image}/>
+                    <img src="/task-4-adv/assets/images/kitchen.jpg" alt="kitchen photo" className={styles.image}/>
                     <Title title="Find Dream Home" description="Lorem ipsum dolor sit amet, consectetur adipiscing eli"
                     className="service_title"/>
                 </div>

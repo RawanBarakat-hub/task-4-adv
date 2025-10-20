@@ -5,33 +5,33 @@ import Footer from "../components/Footer/Footer"
 const Root = () => {
     const items=[
         {
-            url:"/",
+            url:"/task-4-adv",
             content:"Home"
         },
         {
-            url:"/about",
+            url:"/task-4-adv/about",
             content:"About"
         },
         {
-            url:"/service",
+            url:"/task-4-adv/service",
             content:"Service"
         },
         {
-            url:"/property",
+            url:"/task-4-adv/property",
             content:"New Property"
         },
         {
-            url:"/contact",
+            url:"/task-4-adv/contact",
             content:"Contact"
         }
     ]
     return (
         <div>
-            <NavBar image={{source:"/assets/images/Logo.png",alternative:"Logo image"}}
+            <NavBar image={{source:"/task-4-adv/assets/images/Logo.png",alternative:"Logo image"}}
             items={items}
             btn_login="Login"
-            image_btn={{source:"/assets/icons/Bars.svg",alternative:"Bars icon"}}
-            image_xbtn={{source:"public/assets/icons/Xmenu.svg",alternative:"Cancel icon"}}
+            image_btn={{source:"/task-4-adv/assets/icons/Bars.svg",alternative:"Bars icon"}}
+            image_xbtn={{source:"/task-4-adv/assets/icons/Xmenu.svg",alternative:"Cancel icon"}}
             />
             <Outlet/>
             <Footer/>

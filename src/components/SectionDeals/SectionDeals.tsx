@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ButtonDeal from "../LinkDeal/ButtonDeal";
+import ButtonDeal from "../ButtonDeal/ButtonDeal";
 import ButtonsContainer from "../LinksContainer/ButtonsContainer";
 import Title from "../Title/Title";
 import ContainerGrid from "../ContainerGrid/ContainerGrid";
@@ -17,33 +17,33 @@ const SectionDeals = () => {
         {
         name: "residential",
         images: [
-            { source: "/assets/images/Deal_house1.jpg", alternative: "House photo" },
-            { source: "/assets/images/Deal_house2.jpg", alternative: "House photo" },
-            { source: "/assets/images/Deal_house3.jpg", alternative: "House photo" },
+            { source: "/task-4-adv/assets/images/Deal_house1.jpg", alternative: "House photo" },
+            { source: "/task-4-adv/assets/images/Deal_house2.jpg", alternative: "House photo" },
+            { source: "/task-4-adv/assets/images/Deal_house3.jpg", alternative: "House photo" },
         ],
         },
         {
         name: "commercial",
         images: [
-            { source: "/assets/images/Deal_house2.jpg", alternative: "House photo" },
-            { source: "/assets/images/Deal_house1.jpg", alternative: "House photo" },
-            { source: "/assets/images/Deal_house3.jpg", alternative: "House photo" },
+            { source: "/task-4-adv/assets/images/Deal_house2.jpg", alternative: "House photo" },
+            { source: "/task-4-adv/assets/images/Deal_house1.jpg", alternative: "House photo" },
+            { source: "/task-4-adv/assets/images/Deal_house3.jpg", alternative: "House photo" },
         ],
         },
         {
         name: "agriculture",
         images: [
-            { source: "/assets/images/Deal_house3.jpg", alternative: "House photo" },
-            { source: "/assets/images/Deal_house2.jpg", alternative: "House photo" },
-            { source: "/assets/images/Deal_house1.jpg", alternative: "House photo" },
+            { source: "/task-4-adv/assets/images/Deal_house3.jpg", alternative: "House photo" },
+            { source: "/task-4-adv/assets/images/Deal_house2.jpg", alternative: "House photo" },
+            { source: "/task-4-adv/assets/images/Deal_house1.jpg", alternative: "House photo" },
         ],
         },
         {
         name: "industrial",
         images: [
-            { source: "/assets/images/Deal_house2.jpg", alternative: "House photo" },
-            { source: "/assets/images/Deal_house1.jpg", alternative: "House photo" },
-            { source: "/assets/images/Deal_house3.jpg", alternative: "House photo" },
+            { source: "/task-4-adv/assets/images/Deal_house2.jpg", alternative: "House photo" },
+            { source: "/task-4-adv/assets/images/Deal_house1.jpg", alternative: "House photo" },
+            { source: "/task-4-adv/assets/images/Deal_house3.jpg", alternative: "House photo" },
         ],
         },
     ];

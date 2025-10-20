@@ -6,7 +6,7 @@ const SectionAbout = () => {
     const information=[
         {
             image:{
-                source:"/assets/icons/House_search.svg",
+                source:"/task-4-adv/assets/icons/House_search.svg",
                 alternative:"House icon"
             },
             title:"Search Apartment",
@@ -14,7 +14,7 @@ const SectionAbout = () => {
         },
         {
             image:{
-                source:"/assets/icons/House_hand.svg",
+                source:"/task-4-adv/assets/icons/House_hand.svg",
                 alternative:"House icon"
             },
             title:"Select Apartment",
@@ -22,7 +22,7 @@ const SectionAbout = () => {
         },
         {
             image:{
-                source:"/assets/icons/House_correct.svg",
+                source:"/task-4-adv/assets/icons/House_correct.svg",
                 alternative:"House icon"
             },
             title:"Confirm Apartment",

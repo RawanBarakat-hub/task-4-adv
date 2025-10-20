@@ -56,21 +56,21 @@ const Footer = () => {
                 {
                     url:"https:www.facebook.com",
                     image:{
-                        source:"/assets/icons/facebook.svg",
+                        source:"/task-4-adv/assets/icons/facebook.svg",
                         alternative:"Facebook icon"
                     }
                 },
                 {
                     url:"https:www.x.com",
                     image:{
-                        source:"/assets/icons/twitter.svg",
+                        source:"/task-4-adv/assets/icons/twitter.svg",
                         alternative:"X icon"
                     }
                 },
                 {
                     url:"https:www.linked_in.com",
                     image:{
-                        source:"/assets/icons/linked_in.svg",
+                        source:"/task-4-adv/assets/icons/linked_in.svg",
                         alternative:"Linked_in icon"
                     }
                 }
@@ -79,7 +79,7 @@ const Footer = () => {
     return (
         <footer className='white_spacing'>
             <div className={`${styles.top_footer} _flex`}>
-                <FooterInfo image={{source:"/assets/images/Logo.png",alternative:"Logo photo"}}
+                <FooterInfo image={{source:"/task-4-adv/assets/images/Logo.png",alternative:"Logo photo"}}
                 description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus
                             felis vitae sit est quisque.'/>
                 {
