@@ -1,0 +1,141 @@
+.hero_card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 210px;
+}
+.hero_card .image_wrapper{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:  #d3e8f861;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_card .title{
+    font-weight: normal;
+    font-family: "inter_500";
+    font-size: 16px;
+    letter-spacing: -0.22px;
+    color: var(--shift-color);
+    margin-bottom: 10px;
+}
+.hero_card .description{
+    font-family: "inter_400";
+    letter-spacing: -0.22px;
+    color: var(--shift-secondary-color);
+}
+.about_card{
+    padding: 30px 40px 80px;
+    border-radius: 15px;
+    transition: 0.3s all;
+}
+.about_card:hover{
+    background-color: var(--primary-color);
+    .title,.description{
+        color: var(--background-color);
+    }
+}
+.about_card:hover img {
+    filter: brightness(0) invert(1);
+}
+.about_card .title{
+    font-family: "inter-600";
+    font-size: 22px;
+    color: var(--shift-color);
+    margin: 20px 0 10px;
+}
+.about_card .description{
+    max-width: 300px;
+    font-family: "inter_400";
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--shift-secondary-color);
+}
+.card_pricing{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #0000001A;
+}
+.card_pricing .image_wrapper img,.card_deal .image_wrapper img{
+    max-width: 100%;
+}
+.card_pricing .title,
+.card_pricing .description{
+    font-family: "inter-600";
+    font-size: 18px;
+}
+.card_pricing .title{
+    color: var(--primary-color);
+    margin-top: 16px;
+}
+.card_pricing .description{
+    color: var(--shift-color);
+    line-height: 29px;
+    max-width: 180px;
+    margin-bottom: 38px;
+}
+.card_pricing .additional_info{
+    gap: 10.48px;
+}
+.card_pricing .additional_info .additional_text{
+    font-family: "inter_400";
+    font-size: 14px;
+    color: var(--shift-color);
+}
+.card_deal{
+    position: relative;
+}
+.card_deal .features{
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+.features .first_feature,.features .second_feature{
+    font-family: "inter_400";
+    font-size: 14px;
+    background-color: #22222266;
+    color: var(--background-color);
+    border: 1px solid var(--background-color);
+    border-radius: 5px;
+}
+.features .first_feature{
+    padding: 6px 12px 5px;
+}
+.features .second_feature{
+    padding: 6px 7px 5px 6px;
+    margin-left: 7px;
+}
+@media screen and (max-width:992px) {
+    .hero_card .title{
+        margin-bottom: 6px;
+    }
+    .hero_card .description{
+        font-size: 15px;
+    }
+    .about_card{
+        padding: 15px 17.5px 28px;
+    }
+    .card_pricing{
+        padding: 16px;
+        border-radius: 6px;
+    }
+    .card_pricing .title{
+        margin-top: 14px;
+    }
+    .card_pricing .description{
+        font-size: 16px;
+        max-width: 237px;
+        margin-bottom: 72px;
+    }
+    .card_pricing .additional_info{
+        gap: 15.45px;
+    }
+    .card_pricing .additional_info .additional_text{
+        font-size: 12px;
+    }
+    .features .first_feature,.features .second_feature{
+        font-size: 12px;
+    }
+}

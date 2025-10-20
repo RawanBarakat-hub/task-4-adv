@@ -1,0 +1,16 @@
+.container{
+    margin-bottom: 56px;
+    display: flex;
+    gap: 50px;
+    overflow-x: auto;
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+    .container{
+        margin-bottom: 53px;
+        gap: 30px;
+    }
+}

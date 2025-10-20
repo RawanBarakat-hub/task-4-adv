@@ -1,0 +1,23 @@
+.btn{
+    background: none;
+    border: none;
+    font-family: "inter_400";
+    font-size: 18px;
+    padding-bottom: 15px;
+    color: var(--shift-color);
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.active{
+    font-family: "inter-600";
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+.btn,.active{
+}
+@media screen and (max-width:992px) {
+    .btn{
+        font-size: 16px;
+        padding-bottom: 7px;
+    }
+}

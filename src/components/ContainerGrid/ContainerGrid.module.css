@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(200px,380px));
+    justify-content: space-between;
+    gap: 20px;
+}
+.container_pricing{
+    grid-template-columns: repeat(3,minmax(200px,382px));
+    gap: 25px 30px;
+}
+.container_deal{
+    grid-template-columns: repeat(3,minmax(200px,387px));
+}
+@media screen and (max-width:992px) {
+    .container{
+        grid-template-columns: repeat(1,minmax(200px,380px));
+        justify-content: start;
+    }
+    .container_pricing{
+        gap: 20px;
+    }
+}

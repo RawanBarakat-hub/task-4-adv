@@ -1,0 +1,53 @@
+.title_container{
+    margin-bottom: 56px;
+}
+.service_title{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    margin: 0 auto;
+    padding: 11px;
+}
+.service_title .title,.service_title .description{
+    color: var(--background-color);
+}
+.service_title .title{
+    font-size: 70px;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 56px;
+}
+.service_title .description{
+    text-align: center;
+    font-size: 30px;
+    line-height: 26px;
+    max-width: 606px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 39px;
+    margin-bottom: 5px;
+}
+.description{
+    font-size: 15px
+}
+@media screen and (max-width:992px) {
+    .title_container{
+        margin-bottom: 42px;
+    }
+    .title{
+        font-size: 30px;
+        margin-bottom: 6px;
+    }
+    .description{
+        line-height: 22px;
+    }
+    .service_title .title{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .service_title .description{
+        font-size: 15px;
+    }
+}
