@@ -5,23 +5,23 @@ import Footer from "../components/Footer/Footer"
 const Root = () => {
     const items=[
         {
-            url:"/task-4-adv/",
+            url:"/",
             content:"Home"
         },
         {
-            url:"/task-4-adv/about",
+            url:"/about",
             content:"About"
         },
         {
-            url:"/task-4-adv/service",
+            url:"/service",
             content:"Service"
         },
         {
-            url:"/task-4-adv/property",
+            url:"/property",
             content:"New Property"
         },
         {
-            url:"/task-4-adv/contact",
+            url:"/contact",
             content:"Contact"
         }
     ]
