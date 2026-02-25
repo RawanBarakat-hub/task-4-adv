@@ -1,0 +1,79 @@
+:root{
+  --primary-color: #025595;
+  --secondary-color: #EFF8FF;
+  --shift-color: #222222;
+  --shift-secondary-color: #22222280;
+  --background-color: #FFFFFF;
+  --button-color: #F5F5F5;
+  --border-color: #000000;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "inter_400";
+  src: url("/assets/fonts/Inter_24pt-Regular.ttf");
+}
+@font-face {
+  font-family: "inter_500";
+  src: url("/assets/fonts/Inter_18pt-Medium.ttf");
+}
+@font-face {
+  font-family: "inter-600";
+  src: url("/assets/fonts/Inter_18pt-SemiBold.ttf");
+}
+@font-face {
+  font-family: "inter-700";
+  src: url("/assets/fonts/Inter_28pt-Bold.ttf");
+}
+.white_spacing{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.section_margin{
+  margin: 94px 0;
+}
+._flex{
+  display: flex;
+}
+._justify_between{
+  justify-content: space-between;
+}
+._align_center{
+  align-items: center;
+}
+.shift_header{
+  font-family: "inter_500";
+  color: var(--shift-color);
+}
+.title_style{
+  font-family: "inter-700";
+  color: var(--shift-color);
+}
+.description_style{
+  font-family: "inter_400";
+  color: var(--shift-secondary-color);
+}
+._list_style_none{
+  list-style: none;
+}
+._text_decoration{
+  text-decoration: none;
+}
+.footer_shift{
+  font-family: "inter_400";
+  letter-spacing: 0.02em;
+  line-height: 1;
+  color: var(--shift-color);
+}
+@media screen and (max-width:992px) {
+  .white_spacing{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section_margin{
+    margin: 64px 0;
+  }
+}

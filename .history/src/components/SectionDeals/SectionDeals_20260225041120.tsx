@@ -1,0 +1,43 @@
+import { useState } from "react";
+import ButtonDeal from "../ButtonDeal/ButtonDeal";
+import ButtonsContainer from "../LinksContainer/ButtonsContainer";
+import Title from "../Title/Title";
+import ContainerGrid from "../ContainerGrid/ContainerGrid";
+import Card from "../Card/Card";
+
+const SectionDeals = () => {
+    
+    const [activeType, setActiveType] = useState<string>("residential");
+    const currentHouse = houses.find((house) => house.name === activeType);
+    return (
+        <section className="section_margin white_spacing">
+        <Title
+            title="Best Real Estate Deals"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing eli"
+        />
+
+        <ButtonsContainer>
+            {buttons.map((button) => (
+            <ButtonDeal
+                key={button.key}
+                content={button.content}
+                onClick={() => setActiveType(button.key)}
+                isActive={activeType === button.key}
+            />
+            ))}
+        </ButtonsContainer>
+        <ContainerGrid className="container_deal">
+            {currentHouse?.images.map((image, index) => (
+            <Card
+                key={index}
+                image={image}
+                show_last={true}
+                className="card_deal"
+            />
+            ))}
+        </ContainerGrid>
+        </section>
+    );
+    };
+
+    export default SectionDeals;
